@@ -9,6 +9,7 @@ The first module will replace the LAY5-BE101 that controls the irrigation system
 
 Our second module will allow us to manage this controller remotely.
 The irrigation controller we will control is GD100-2G2G-S2-PV, 
+
 ![GD100-2G2G-S2-PV](https://github.com/user-attachments/assets/38c85dce-1bd1-4547-8f3e-d5fa45853b20) ![GD100-2G2G-S2-PV(2)](https://github.com/user-attachments/assets/86860fce-3005-4b87-a648-20922da0b86c)
 
 A device that provides excessive voltage for the Arduino. Therefore, we'll use a voltage reducer and reduce the 24V voltage to 5V. This way, the Arduino won't burn out.
