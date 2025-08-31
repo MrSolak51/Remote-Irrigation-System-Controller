@@ -5,9 +5,9 @@
 
 #include "segDrive.h"
 
-#define LORA_SS   10   // NSS → D10
-#define LORA_RST  0    // RESET → D0
-#define LORA_DIO0 2    // DIO0 → D2
+#define RFM95_CS   10   // NSS → D10
+#define RFM95_RST  0    // RESET → D0
+#define RFM95_INT 2    // DIO0 → D2
 
 #define SSR_SWITCH_PIN 1
 
